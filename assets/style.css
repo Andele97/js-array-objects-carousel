@@ -8,6 +8,20 @@ img {
   object-fit: cover;
 }
 
+h2 {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  color: white;
+}
+
+p {
+  position: absolute;
+  right: 10px;
+  top: 45px;
+  color: white;
+}
+
 .container-fluid {
   height: 100vh;
   display: flex;
@@ -23,6 +37,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   box-shadow: 0px 0px 5px 2px rgba(128, 128, 128, 0.884);
+  position: relative;
 }
 
 .wrapper {
